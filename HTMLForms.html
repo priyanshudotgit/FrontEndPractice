@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="uname">Enter Name:</label>
+        <input type="text" name="uname" id="uname" size="30" maxlength="5" placeholder="Enter Name here" value="">
+        <br>
+        <br>
+        <label for="pass">Enter Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="Enter Password" required>
+        <br><br>
+        <label for="email">Enter Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="hobby">Choose your hobby:</label>
+        <input type="checkbox" name="hobby" id="hobby" value="Cooking">Cooking
+        <input type="checkbox" name="hobby" id="hobby" value ="Reading" checked>Reading
+        <input type="checkbox" name="hobby" id="hobby" value="Singing">Singing
+        <br><br>
+        <label for="semester">Semester:</label>
+        <input type="radio" name="semester" id="sem1" value="sem1"><label for="sem1">Sem 1</label> <!-- if text is selected it selects the radio button -->
+        <input type="radio" name="semester" id="sem2" value="sem2"><label for="sem2">Sem 2</label>
+        <input type="radio" name="semester" id="sem3" value="sem3"><label for="sem3">Sem 3</label>
+        <input type="radio" name="semester" id="sem4" value="sem4" checked><label for="sem4">Sem 4</label>
+        <input type="radio" name="semester" id="sem5" value="sem5"><label for="sem5">Sem 5</label>
+        <input type="radio" name="semester" id="sem6" value="sem6"><label for="sem6">Sem 6</label>
+        <input type="radio" name="semester" id="sem7" value="sem7"><label for="sem7">Sem 7</label>
+        <input type="radio" name="semester" id="sem8" value="sem8"><label for="sem8">Sem 8</label>
+        <br><br>
+        <label for="program">Select program: </label>
+        <select name="program" id="program"> <!-- size="1" and "multiple" this attribute can also be used -->
+            <option value="select">Select</option>
+            <option value="btech" selected>BTech</option>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="medical">Medical</option>
+        </select>
+        <br><br>
+        <label for="file">Choose your Resume:</label>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <label for="review">Write Feedback:</label><br>
+        <textarea name="review" id="review" rows="6" cols="40"></textarea>
+        <br><br>
+        <input type="submit" name="submit" id="submit" value="Submit Form">
+        <input type="reset" name="reset" id="reset" value="Reset Form">
+        <input type="image" name="images" id="images" src="\FrontEnd\Images\1_eV6MmAeMV9DgkQv3PdOBMA.png" width="100" height="30"> 
+        
+    </form>
+</body>
+</html>

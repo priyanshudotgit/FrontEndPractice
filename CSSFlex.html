@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #EAE2C6;
+        }
+        .container{
+            background-color: #98D8EF;
+            border: 3px solid #BFBBA9;
+            /* padding: 20px; */
+            display: flex;
+            justify-content: center ; 
+            /* flex-start is the default property */
+            /* justify-content is used for horizontal alignment */
+
+            align-items: center;
+            /* height: 90vh; */
+            min-height: 95vh;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            column-gap: 10px;
+
+        }
+
+        .item{
+            background-color: #ADA991;
+            width: 50px;
+            height: 50px;
+            border: 2px #ADA991 solid;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 1;
+            /* flex-shrink is by default 1 */
+            /* flex-grow: 1; */
+        }
+
+        #i1{
+            /* flex-grow: 5; */
+            /* flex-shrink: 5; */
+            align-self: flex-end;
+            
+        }
+
+        @media(max-width:600px){
+            .container{
+                flex-wrap: wrap;
+                background-color: aqua;
+                transition: 2s;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">Item1</div>
+        <div class="item">Item2</div>
+        <div class="item">Item3</div>
+        <div class="item">Item4</div>
+        <div class="item">Item5</div>
+        <div class="item">Item6</div>
+        <img src="" alt="">
+    </div>
+</body>
+</html>
