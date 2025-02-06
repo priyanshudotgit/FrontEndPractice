@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Task</title>
+  <style>
+    /* Reset some default browser styles */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Set up the body layout */
+    body {
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Sidebar styling */
+    .sidebar {
+      background-color: #28a745;
+      color: white;
+      padding: 20px;
+      width: 200px;
+      position: absolute;
+      height: 100%;
+      text-align: center;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }
+
+    /* Main content styling */
+    .content {
+      margin-left: 220px;
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+      flex-wrap: wrap;
+    }
+
+    /* Card styling */
+    .card {
+      background-color: white;
+      border: 0px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    /* Headings styling */
+    h3 {
+      color: #28a745;
+      margin-bottom: 10px;
+    }
+
+    /* Footer styling */
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      margin-top: auto;
+    }
+
+    .footer a {
+      color: #28a745;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Welcome to Your Website Task</h2>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="card">
+      <h3>About CSS</h3>
+      <p>Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and more.</p>
+    </div>
+    <div class="card">
+      <h3>Responsive Design</h3>
+      <p>Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.</p>
+    </div>
+    <div class="card">
+      <h3>Box Model</h3>
+      <p>The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Created by [Student Name] | Follow us on
+      <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+    </p>
+  </div>
+</body>
+</html>
